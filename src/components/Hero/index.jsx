@@ -23,7 +23,7 @@ export default function App() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
   return (
-    <div className="lg:h-screen">
+    <div className="lg:h-screen mt-20 lg:mt-0">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
