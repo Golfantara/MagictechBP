@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import { lazily } from "react-lazily";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -24,7 +23,7 @@ export default function App() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
   return (
-    <div>
+    <div className="lg:h-screen">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -41,7 +40,7 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="bg-cover">
+          <div>
             <img src={satu} alt="" />
           </div>
         </SwiperSlide>
