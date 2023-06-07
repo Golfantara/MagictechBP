@@ -5,10 +5,8 @@ const ModulesHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-20 w-full lg:mt-0 lg:h-[100vh] font-inter">
-        <Carousel />
-        <Footer />
-      </div>
+      <Carousel />
+      <Footer />
     </div>
   );
 };
