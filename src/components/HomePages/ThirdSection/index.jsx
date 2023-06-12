@@ -3,13 +3,13 @@ import contentdua from "@/assets/HomePages/Content 02.png";
 
 const ThirdSection = () => {
   return (
-    <div className="container">
-      <div className="grid grid-cols-2 mt-12">
+    <div className="md:container px-3 mb-12 md:mb-24">
+      <div className="grid lg:grid-cols-2 gap-2 mt-12">
         <div className="grid place-content-center">
           <img src={content} alt="" />
         </div>
-        <div className="grid place-content-center">
-          <span className="text-3xl text-merah font-semibold">
+        <div className="grid mt-4 lg:mt-0 place-content-center">
+          <span className="text-3xl text-center lg:text-left text-merah font-semibold">
             Kolaborasi khasiat yang dahsyat
           </span>
           <span className="text-base text-[#667085] my-3">
@@ -27,9 +27,9 @@ const ThirdSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 mt-12">
+      <div className="grid lg:grid-cols-2 lg:gap-2 mt-12">
         <div className="grid place-content-center">
-          <span className="text-3xl text-merah font-semibold">
+          <span className="text-3xl text-center lg:text-left text-merah font-semibold">
             Inovasi Terbaru
           </span>
           <span className="text-base text-[#667085] my-3">
@@ -37,13 +37,13 @@ const ThirdSection = () => {
             ekstraksi tersebut sehingga menghasilkan kinerja herbal yang lebih
             optimal yang kemudian disebut ekstrak terpurifikasi.
           </span>
-          <span className="text-base text-[#667085] ">
+          <span className="text-base text-[#667085] mb-4 lg:mb-0">
             Magictech merupakan paduan ekstrak terpurifikasi dari temu putih dan
             ekstrak kulit manggis yang dapat bekerja saling menguatkan dan
             melengkapi saat dikonsumsi bersama.
           </span>
         </div>
-        <div className="grid place-content-center">
+        <div className="grid place-content-center mb-12 lg:mb-0">
           <img src={contentdua} alt="" />
         </div>
       </div>

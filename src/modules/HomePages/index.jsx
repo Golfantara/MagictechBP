@@ -7,6 +7,8 @@ import FourthSection from "@/components/HomePages/FourthSection";
 import FifthSection from "@/components/HomePages/FifthSection";
 import FaqComponents from "@/components/Faq";
 import ArtikelComponents from "@/components/Artikel";
+import SixSection from "@/components/HomePages/SixSection";
+import Testimoni from "@/components/Testimoni";
 
 const ModulesHome = () => {
   return (
@@ -19,6 +21,8 @@ const ModulesHome = () => {
       <FifthSection />
       <FaqComponents />
       <ArtikelComponents />
+      <SixSection />
+      <Testimoni />
       <Footer />
     </div>
   );

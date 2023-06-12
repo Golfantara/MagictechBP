@@ -1,18 +1,18 @@
 const FourthSection = () => {
   return (
     <div className="bg-abu">
-      <div className="container py-12">
+      <div className="md:container px-3 py-12">
         <div className="mt-12">
           <span className="grid text-base text-merah">Keunggulan</span>
-          <span className="grid text-4xl font-semibold">
+          <span className="grid text-xl md:text-2xl lg:text-4xl font-semibold">
             Kolaborasi khasiat yang dahsyat. Magictech
           </span>
-          <span className="text-4xl font-semibold">
+          <span className="text-xl md:text-2xl lg:text-4xl font-semibold">
             menjadi solusi kanker dengan cara:
           </span>
         </div>
         <div className="mt-12">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 md:gap-5 md:grid-cols-3">
             <div>
               <div>
                 <svg
@@ -573,9 +573,7 @@ const FourthSection = () => {
                 </span>
               </div>
             </div>
-          </div>
 
-          <div className="grid grid-cols-3 mt-12">
             <div>
               <div>
                 <svg
@@ -715,7 +713,7 @@ const FourthSection = () => {
                   />
                 </svg>
               </div>
-              <span className="grid my-3 text-xl">Antioksidan.</span>
+              <span className="grid my-3 text-xl">Anti Engiogenesis.</span>
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
@@ -902,7 +900,7 @@ const FourthSection = () => {
                   />
                 </svg>
               </div>
-              <span className="grid my-3 text-xl">Antiinflamasi.</span>
+              <span className="grid my-3 text-xl">Anti Engiogenesis.</span>
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
