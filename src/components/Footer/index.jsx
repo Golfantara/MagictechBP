@@ -2,38 +2,38 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-12 px-3 md:container">
       <ul className="flex flex-col lg:flex-row list-none justify-center items-center">
         <NavLink to="../Produk" className="">
-          <div className="px-3 py-2 inline-block lg:flex items-center text-md font-semibold leading-snug">
+          <div className="inline-block lg:flex items-center text-md font-semibold leading-snug">
             <div className="ml-2 mt-1 flex items-center lg:hover:underline">
               Produk
             </div>
           </div>
         </NavLink>
         <NavLink to="../Bpom" className="">
-          <div className="px-3 py-2 inline-block lg:flex items-center text-md font-semibold leading-snug">
+          <div className="inline-block lg:flex items-center text-md font-semibold leading-snug">
             <div className="ml-2 mt-1 flex items-center lg:hover:underline">
               BPOM & Halal
             </div>
           </div>
         </NavLink>
         <NavLink to="../Artikel" className="">
-          <div className="px-3 py-2 inline-block lg:flex items-center text-md font-semibold leading-snug">
+          <div className="inline-block lg:flex items-center text-md font-semibold leading-snug">
             <div className="ml-2 mt-1 flex items-center lg:hover:underline">
               Artikel
             </div>
           </div>
         </NavLink>
         <NavLink to="../About" className="">
-          <div className="px-3 py-2 inline-block lg:flex items-center text-md font-semibold leading-snug">
+          <div className="inline-block lg:flex items-center text-md font-semibold leading-snug">
             <div className="ml-2 mt-1 flex items-center lg:hover:underline">
               Tentang Kami
             </div>
           </div>
         </NavLink>
         <NavLink to="../Faq" className="">
-          <div className="px-3 py-2 inline-block lg:flex items-center text-md font-semibold leading-snug">
+          <div className="inline-block lg:flex items-center text-md font-semibold leading-snug">
             <div className="ml-2 mt-1 flex items-center lg:hover:underline">
               Faq
             </div>

@@ -2,17 +2,19 @@ import magictech from "@/assets/HomePages/manggistech-tempu.png";
 
 const FifthSection = () => {
   return (
-    <div className="container mt-12">
+    <div className="md:container px-3 mt-12">
       <div className="mb-12">
-        <span className="grid mb-6 text-base text-merah">Promo Terbatas</span>
-        <span className="grid mb-6 text-5xl font-semibold">
+        <span className="grid mb-2 md:mb-4 lg:mb-6 text-base text-merah">
+          Promo Terbatas
+        </span>
+        <span className="grid mb-2 md:mb-4 lg:mb-6 text-xl md:text-3xl lg:text-5xl font-semibold">
           Promo super solusi kanker.
         </span>
-        <span className="grid text-xl text-[#667085]">
+        <span className="grid text-lg md:text-xl text-[#667085]">
           Khusus buat kamu yang beli sekarang, bisa dapet harga miring, buruan
           order dan
         </span>
-        <span className="text-xl text-[#667085]">
+        <span className="text-lg md:text-xl text-[#667085]">
           dapeting potongan harganya sebelum kehabisan
         </span>
       </div>
@@ -22,7 +24,7 @@ const FifthSection = () => {
           <img src={magictech} alt="" />
         </div>
 
-        <div className="grid md:place-content-end my-4 md:my-0 md:mr-6">
+        <div className="grid place-content-center md:place-content-end my-4 md:my-0 md:mr-6">
           <div className="grid border shadow-2xl rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
             <span className="grid text-xl text-merah ml-2 font-bold line-through">
@@ -83,7 +85,7 @@ const FifthSection = () => {
           </div>
         </div>
 
-        <div className="grid md:place-content-start mt-4 md:my-0">
+        <div className="grid place-content-center md:place-content-start my-4 md:my-0">
           <div className="grid border shadow-2xl rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
             <span className="grid text-xl text-merah ml-2 font-bold line-through">

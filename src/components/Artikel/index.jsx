@@ -1,7 +1,7 @@
 const ArtikelComponents = () => {
   return (
-    <div className="container">
-      <div className="grid grid-cols-3 gap-4">
+    <div className="md:container px-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="shadow-xl p-6 rounded-lg">
           <img
             src="https://source.unsplash.com/random"

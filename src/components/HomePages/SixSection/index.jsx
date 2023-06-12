@@ -1,7 +1,7 @@
 const SixSection = () => {
   return (
     <div className=" bg-abu">
-      <div className="container my-12 py-24">
+      <div className="md:container px-3 my-12 py-24">
         <div className="grid place-content-center">
           <span className="text-center font-semibold text-4xl mb-4">
             Bersertifikat Halal dan BPOM
