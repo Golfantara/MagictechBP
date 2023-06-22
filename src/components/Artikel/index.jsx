@@ -1,6 +1,12 @@
 const ArtikelComponents = () => {
   return (
     <div className="md:container px-3">
+      <span className="grid text-center my-6 text-xl md:text-3xl lg:text-4xl font-semibold">
+        Artikel dan wawasan
+      </span>
+      <span className="grid text-center text-base my-4 text-[#667085] md:text-lg lg:text-xl">
+        Temukan manfaat kesehatan yang luar biasa dari penggunaan herbal alami
+      </span>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="shadow-xl p-6 rounded-lg">
           <img
