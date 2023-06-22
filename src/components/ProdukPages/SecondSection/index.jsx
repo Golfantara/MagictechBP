@@ -8,8 +8,8 @@ import HFH from "@/assets/ProdukPages/Image-6.png";
 const SecondSection = () => {
   return (
     <div>
-      <div className="container my-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="lg:container px-3 my-12 lg:my-24">
+        <div className="grid grid-cols-2  lg:grid-cols-3 gap-4">
           {/* First Produk */}
           <div>
             <img src={Harmonix} alt="" className="mb-4" />

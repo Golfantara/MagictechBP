@@ -3,14 +3,14 @@ import BpomHalal from "@/assets/BpomPages/Image-7.png";
 const FirstSection = () => {
   return (
     <div>
-      <div className="container my-24">
+      <div className="lg:container px-3 my-24">
         <div className="my-12 grid lg:grid-cols-2 place-content-center place-items-center">
           <div>
-            <span className="grid my-4 text-5xl font-semibold">
+            <span className="grid my-4 text-xl md:text-3xl lg:text-5xl font-semibold">
               Produk kami sudah <span> memiliki sertifikat halal </span> & BPOM
               resmi.
             </span>
-            <span className="grid text-xl text-[#667085]">
+            <span className="grid text-base md:text-lg lg:text-xl text-[#667085]">
               Produk kami sudah memiliki sertifikat halal resmi
               <span>
                 dengan
