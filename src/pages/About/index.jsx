@@ -1,14 +1,13 @@
+import { lazy } from "react";
+
 import Navbar from "@/components/Navbar";
+const AboutModules = lazy(() => import("@/modules/AboutPages"));
 
 export const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full h-screen">
-        <h1 className="text-red-500 text-5xl mt-60 flex justify-center items-center">
-          INI ABOUT
-        </h1>
-      </div>
+      <AboutModules />
     </div>
   );
 };

@@ -1,12 +1,12 @@
 const Order = () => {
   return (
     <div className="bg-abu">
-      <div className="container py-12">
+      <div className="lg:container px-3 py-6 md:py-8 lg:py-12">
         <div className="py-12">
-          <span className="grid text-center my-6 text-4xl font-semibold">
+          <span className="grid text-center my-6 text-xl md:text-2xl lg:text-4xl font-semibold">
             Belanja Sekarang
           </span>
-          <span className="grid text-center text-xl text-[#667085]">
+          <span className="grid text-center text-base md:text-xl text-[#667085]">
             Nikmati manfaat kesehatan yang optimal dengan produk herbal kami
             yang aman
             <span>
