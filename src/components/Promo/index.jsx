@@ -1,6 +1,6 @@
 import magictech from "@/assets/HomePages/manggistech-tempu.png";
 
-const FifthSection = () => {
+const Promo = () => {
   return (
     <div className="md:container px-3 mt-12">
       <div className="mb-12">
@@ -150,4 +150,4 @@ const FifthSection = () => {
   );
 };
 
-export default FifthSection;
+export default Promo;

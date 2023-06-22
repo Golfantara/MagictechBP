@@ -8,7 +8,7 @@ import HFH from "@/assets/ProdukPages/Image-6.png";
 const SecondSection = () => {
   return (
     <div>
-      <div className="container mt-24">
+      <div className="container my-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* First Produk */}
           <div>
