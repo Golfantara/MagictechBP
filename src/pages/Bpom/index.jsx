@@ -1,14 +1,11 @@
 import Navbar from "@/components/Navbar";
-
+import { lazy } from "react";
+const BpomModules = lazy(() => import("@/modules/BpomPages"));
 export const Bpom = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full h-screen">
-        <h1 className="text-red-500 text-5xl mt-60 flex justify-center items-center">
-          INI BPOM & HALAL
-        </h1>
-      </div>
+      <BpomModules />
     </div>
   );
 };
