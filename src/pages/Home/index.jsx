@@ -1,4 +1,5 @@
-import ModulesHome from "@/modules/HomePages";
+import { lazy } from "react";
+const ModulesHome = lazy(() => import("@/modules/HomePages"));
 
 export const Home = () => {
   return (
