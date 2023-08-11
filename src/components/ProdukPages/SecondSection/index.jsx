@@ -1,11 +1,11 @@
-import products from "../dataProduk";
+import produk from "../dataProduk";
 
 const SecondSection = () => {
   return (
     <div>
       <div className="lg:container px-3 my-12 lg:my-24">
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-          {products.map((product, index) => (
+          {produk.map((product, index) => (
             <div
               className="full-shadow grid lg:block p-2 lg:p-4 rounded-lg"
               key={index}
