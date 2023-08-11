@@ -1,4 +1,4 @@
-import produk from "../dataProduk";
+import produk from "@/components/ProdukPages/DataProduk";
 
 const SecondSection = () => {
   return (
