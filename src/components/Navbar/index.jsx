@@ -21,9 +21,9 @@ export default function Navbar() {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink to="/" className="group">
-              <div className="flex items-center w-[50px] h-[50px]">
+              <div className="flex items-center w-full h-[50px]">
                 <div className="pl-2 text-2xl font-bold font-inter">
-                  MAGICTECH
+                  HERBAL HI TECH
                 </div>
               </div>
             </NavLink>

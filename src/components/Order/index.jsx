@@ -1,6 +1,6 @@
 const Order = () => {
   return (
-    <div className="bg-abu">
+    <div className="bg-[#F9FAFB]">
       <div className="lg:container px-3 py-6 md:py-8 lg:py-12">
         <div className="py-12">
           <span className="grid text-center my-6 text-xl md:text-2xl lg:text-4xl font-semibold">
