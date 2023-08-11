@@ -25,7 +25,7 @@ const Promo = () => {
         </div>
 
         <div className="grid place-content-center md:place-content-end my-4 md:my-0 md:mr-6">
-          <div className="grid border shadow-2xl rounded-xl p-4 max-w-[325px]">
+          <div className="grid border full-shadow rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
             <span className="grid text-xl text-merah ml-2 font-bold line-through">
               Rp. 1.120.000
@@ -86,7 +86,7 @@ const Promo = () => {
         </div>
 
         <div className="grid place-content-center md:place-content-start my-4 md:my-0">
-          <div className="grid border shadow-2xl rounded-xl p-4 max-w-[325px]">
+          <div className="grid border full-shadow rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
             <span className="grid text-xl text-merah ml-2 font-bold line-through">
               Rp. 610.000
