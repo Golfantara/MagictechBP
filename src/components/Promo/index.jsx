@@ -19,19 +19,21 @@ const Promo = () => {
         </span>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 place-content-center items-center">
+      <div className="grid grid-cols-2 gap-2 lg:grid-cols-3 place-content-center items-center">
         <div>
           <img src={magictech} alt="" />
         </div>
 
-        <div className="grid place-content-center md:place-content-end my-4 md:my-0 md:mr-6">
+        <div className="grid col-start-1 lg:col-start-2 place-content-center md:place-content-end my-4 md:my-0 md:mr-6">
           <div className="grid border full-shadow rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
-            <span className="grid text-xl text-merah ml-2 font-bold line-through">
+            <span className="grid text-lg lg:text-xl text-merah ml-2 font-bold line-through">
               Rp. 1.120.000
             </span>
-            <span className="grid text-5xl mb-4 ml-3 font-bold">Rp. 800rb</span>
-            <div className="flex p-3">
+            <span className="grid text-2xl md:text-4xl  lg:text-5xl mb-4 ml-3 font-bold">
+              Rp. 800rb
+            </span>
+            <div className="flex p-1 lg:p-3">
               <svg
                 width="24px"
                 height="24px"
@@ -54,7 +56,7 @@ const Promo = () => {
               </svg>
               <span className="ml-2">Manggistech isi 60</span>
             </div>
-            <div className="flex p-3">
+            <div className="flex p-1 lg:p-3">
               <svg
                 width="24px"
                 height="24px"
@@ -88,11 +90,13 @@ const Promo = () => {
         <div className="grid place-content-center md:place-content-start my-4 md:my-0">
           <div className="grid border full-shadow rounded-xl p-4 max-w-[325px]">
             <span className="grid text-base">Harga awal</span>
-            <span className="grid text-xl text-merah ml-2 font-bold line-through">
+            <span className="grid text-lg lg:text-xl text-merah ml-2 font-bold line-through">
               Rp. 610.000
             </span>
-            <span className="grid text-5xl mb-4 ml-3 font-bold">Rp. 440rb</span>
-            <div className="flex p-3">
+            <span className="grid text-2xl md:text-4xl  lg:text-5xl mb-4 ml-3 font-bold">
+              Rp. 440rb
+            </span>
+            <div className="flex p-1 lg:p-3">
               <svg
                 width="24px"
                 height="24px"
@@ -115,7 +119,7 @@ const Promo = () => {
               </svg>
               <span className="ml-2">Manggistech isi 60</span>
             </div>
-            <div className="flex p-3">
+            <div className="flex p-1 lg:p-3">
               <svg
                 width="24px"
                 height="24px"
