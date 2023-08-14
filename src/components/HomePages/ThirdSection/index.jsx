@@ -10,19 +10,19 @@ const ThirdSection = () => {
         </div>
         <div className="grid mt-4 lg:mt-0 place-content-center">
           <span className="text-3xl text-center lg:text-left text-merah font-semibold">
-            Kolaborasi khasiat yang dahsyat
+            SEMUA BAHAN BAKU DIOLAH DENGAN TEKNOLOGI PALING MUTAKHIR
           </span>
           <span className="text-base text-[#667085] my-3">
-            Dunia herbal terus menerus berkembang untuk menemukan solusi terbaik
-            bagi masyarakat. Seperti penggunaan bahan temu putih yang dikenal
-            sebagai antikanker.
+            Para peneliti terus melakukan upaya-upaya pembaruan untuk menemukan
+            solusi terbaik untuk dunia kesehatan. Seperti herbal yang berevolusi
+            dari tradiosional ke modern. Dari konsumsi langsung bahan utuh
+            (simplisia), kemudian ekstrak yang memisahkan senyawa aktif, sampai
+            saat ini ditemukan teknologi baru bernama ekstrak terpurifikasi yang
+            mampu memisahkan satu senyawa dari senyawa lainnya.
           </span>
           <span className="text-base text-[#667085] ">
-            Dahulu, temu putih dikonsumsi langsung seperti digeprek, diseduh,
-            atau lainya. Kemudian hadirlah ekstraksi yang menghasilkan ekstrak
-            temu putih. namun, nyatanya konsumsi temu putih baik secara langsung
-            maupun dari ekstraknya belum cukup menjadi solusi karena masih
-            bercampur dengan senyawa lain.
+            Teknologi ini lah yang kami gunakan saat ini, dan KAMILAH
+            SATU-SATUNYA DI INDONESIA
           </span>
         </div>
       </div>
@@ -30,17 +30,29 @@ const ThirdSection = () => {
       <div className="grid lg:grid-cols-2 lg:gap-2 mt-12">
         <div className="grid place-content-center">
           <span className="text-3xl text-center lg:text-left text-merah font-semibold">
-            Inovasi Terbaru
+            BEDA DARI HERBAL BIASA, <br /> INILAH KEUNGGULAN KAMI
           </span>
           <span className="text-base text-[#667085] my-3">
-            kini telah hadir teknologi yang bisa mengekstrak kembali hasil
-            ekstraksi tersebut sehingga menghasilkan kinerja herbal yang lebih
-            optimal yang kemudian disebut ekstrak terpurifikasi.
+            - Sudah menggunakan teknologi paling mutakhir
           </span>
-          <span className="text-base text-[#667085] mb-4 lg:mb-0">
-            Magictech merupakan paduan ekstrak terpurifikasi dari temu putih dan
-            ekstrak kulit manggis yang dapat bekerja saling menguatkan dan
-            melengkapi saat dikonsumsi bersama.
+          <span className="text-base text-[#667085] my-3">
+            - Bahan baku ekstrak terpurifikasi
+          </span>
+          <span className="text-base text-[#667085] my-3">
+            - 100% alami tanpa campuran bahan kimia
+          </span>
+          <span className="text-base text-[#667085] my-3">
+            - Bahan baku berkualitas premium ASLI INDONESIA
+          </span>
+          <span className="text-base text-[#667085] my-3">
+            - Bisa didosis sesuai keluhan dan kebutuhan
+          </span>
+          <span className="text-base text-[#667085] my-3">- Halal</span>
+          <span className="text-base text-[#667085] my-3">
+            - Bisa konsultasi gratis dengan praktisi medis kami
+          </span>
+          <span className="text-base text-[#667085] my-3">
+            - Didampingi selama pengobatan (atas izin konsumen)
           </span>
         </div>
         <div className="grid place-content-center mb-12 lg:mb-0">
