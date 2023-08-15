@@ -13,9 +13,14 @@ const FourthSection = () => {
         </div>
         <div className="mt-12">
           <div className="grid grid-cols-2 gap-3 md:gap-5 md:grid-cols-3">
-            <div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="200"
+              data-aos-once="true"
+            >
               <div>
                 <svg
+                  className="animate-spin-slow"
                   width="48px"
                   height="48px"
                   viewBox="0 0 48 48"
@@ -156,7 +161,7 @@ const FourthSection = () => {
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
-              <div className="flex text-merah font-semibold">
+              <div className="flex text-merah font-semibold hover:translate-x-2 duration-200">
                 Learn more
                 <span className="mt-2 ml-2">
                   <svg
@@ -200,9 +205,14 @@ const FourthSection = () => {
               </div>
             </div>
 
-            <div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="400"
+              data-aos-once="true"
+            >
               <div>
                 <svg
+                  className="animate-spin-slow"
                   width="48px"
                   height="48px"
                   viewBox="0 0 48 48"
@@ -343,7 +353,7 @@ const FourthSection = () => {
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
-              <div className="flex text-merah font-semibold">
+              <div className="flex text-merah font-semibold hover:translate-x-2 duration-200">
                 Learn more
                 <span className="mt-2 ml-2">
                   <svg
@@ -387,9 +397,14 @@ const FourthSection = () => {
               </div>
             </div>
 
-            <div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-once="true"
+            >
               <div>
                 <svg
+                  className="animate-spin-slow"
                   width="48px"
                   height="48px"
                   viewBox="0 0 48 48"
@@ -530,7 +545,7 @@ const FourthSection = () => {
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
-              <div className="flex text-merah font-semibold">
+              <div className="flex text-merah font-semibold hover:translate-x-2 duration-200">
                 Learn more
                 <span className="mt-2 ml-2">
                   <svg
@@ -574,9 +589,14 @@ const FourthSection = () => {
               </div>
             </div>
 
-            <div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              data-aos-once="true"
+            >
               <div>
                 <svg
+                  className="animate-spin-slow"
                   width="48px"
                   height="48px"
                   viewBox="0 0 48 48"
@@ -717,7 +737,7 @@ const FourthSection = () => {
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
-              <div className="flex text-merah font-semibold">
+              <div className="flex text-merah font-semibold hover:translate-x-2 duration-200">
                 Learn more
                 <span className="mt-2 ml-2">
                   <svg
@@ -761,9 +781,14 @@ const FourthSection = () => {
               </div>
             </div>
 
-            <div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
               <div>
                 <svg
+                  className="animate-spin-slow"
                   width="48px"
                   height="48px"
                   viewBox="0 0 48 48"
@@ -904,7 +929,7 @@ const FourthSection = () => {
               <span className="my-3 text-base text-[#667085]">
                 Meracuni dan melepas sel kanker secara berkala.
               </span>
-              <div className="flex text-merah font-semibold">
+              <div className="flex text-merah font-semibold hover:translate-x-2 duration-200">
                 Learn more
                 <span className="mt-2 ml-2">
                   <svg

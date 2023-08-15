@@ -1,14 +1,30 @@
 import content from "@/assets/HomePages/Content.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import contentdua from "@/assets/HomePages/Content 02.png";
+import { useEffect } from "react";
 
 const ThirdSection = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="md:container px-3 mb-12 md:mb-24">
       <div className="grid lg:grid-cols-2 gap-2 mt-12">
-        <div className="grid place-content-center">
+        <div
+          className="grid place-content-center"
+          data-aos="zoom-in-right"
+          data-aos-duration="500"
+          data-aos-once="true"
+        >
           <img src={content} alt="" />
         </div>
-        <div className="grid mt-4 lg:mt-0 place-content-center">
+        <div
+          className="grid mt-4 lg:mt-0 place-content-center"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <span className="text-3xl text-center lg:text-left text-merah font-semibold">
             SEMUA BAHAN BAKU DIOLAH DENGAN TEKNOLOGI PALING MUTAKHIR
           </span>
@@ -28,7 +44,12 @@ const ThirdSection = () => {
       </div>
 
       <div className="grid lg:grid-cols-2 lg:gap-2 mt-12">
-        <div className="grid place-content-center">
+        <div
+          className="grid place-content-center"
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <span className="text-3xl text-center lg:text-left text-merah font-semibold">
             BEDA DARI HERBAL BIASA, INILAH KEUNGGULAN KAMI
           </span>
@@ -72,7 +93,12 @@ const ThirdSection = () => {
             </span>
           </span>
         </div>
-        <div className="grid place-content-center mb-12 lg:mb-0">
+        <div
+          className="grid place-content-center mb-12 lg:mb-0"
+          data-aos="zoom-in-left"
+          data-aos-duration="500"
+          data-aos-once="true"
+        >
           <img src={contentdua} alt="" />
         </div>
       </div>
