@@ -30,29 +30,46 @@ const ThirdSection = () => {
       <div className="grid lg:grid-cols-2 lg:gap-2 mt-12">
         <div className="grid place-content-center">
           <span className="text-3xl text-center lg:text-left text-merah font-semibold">
-            BEDA DARI HERBAL BIASA, <br /> INILAH KEUNGGULAN KAMI
+            BEDA DARI HERBAL BIASA, INILAH KEUNGGULAN KAMI
           </span>
           <span className="text-base text-[#667085] my-3">
-            - Sudah menggunakan teknologi paling mutakhir
+            -
+            <span className="pl-2">
+              Sudah menggunakan teknologi paling mutakhir
+            </span>
           </span>
           <span className="text-base text-[#667085] my-3">
-            - Bahan baku ekstrak terpurifikasi
+            -<span className="pl-2">Bahan baku ekstrak terpurifikasi</span>
           </span>
           <span className="text-base text-[#667085] my-3">
-            - 100% alami tanpa campuran bahan kimia
+            -<span className="pl-2">100% alami tanpa campuran bahan kimia</span>
           </span>
           <span className="text-base text-[#667085] my-3">
-            - Bahan baku berkualitas premium ASLI INDONESIA
+            -
+            <span className="pl-2">
+              Bahan baku berkualitas premium ASLI INDONESIA
+            </span>
           </span>
           <span className="text-base text-[#667085] my-3">
-            - Bisa didosis sesuai keluhan dan kebutuhan
+            -
+            <span className="pl-2">
+              Bisa didosis sesuai keluhan dan kebutuhan
+            </span>
           </span>
-          <span className="text-base text-[#667085] my-3">- Halal</span>
           <span className="text-base text-[#667085] my-3">
-            - Bisa konsultasi gratis dengan praktisi medis kami
+            -<span className="pl-2">Halal</span>
           </span>
           <span className="text-base text-[#667085] my-3">
-            - Didampingi selama pengobatan (atas izin konsumen)
+            -
+            <span className="pl-2">
+              Bisa konsultasi gratis dengan praktisi medis kami
+            </span>
+          </span>
+          <span className="text-base text-[#667085] my-3">
+            -
+            <span className="pl-2">
+              Didampingi selama pengobatan (atas izin konsumen)
+            </span>
           </span>
         </div>
         <div className="grid place-content-center mb-12 lg:mb-0">
