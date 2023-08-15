@@ -18,13 +18,13 @@ const FourthSection = () => {
             <span className="grid">masyarakat Indonesia.</span>
           </span>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 place-content-center gap-3 lg:gap-6 place-items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-4 rounded-full place-content-center gap-3 lg:gap-6 place-items-center">
           {teamData.map((member, index) => (
             <div
               key={index}
               className="grid place-content-center place-items-center"
             >
-              <img src={member.picture} />
+              <img src={member.picture} className="team-member-image" />
               <span className="grid text-center max-w-[100px] md:max-w-full">
                 {member.name}
               </span>
