@@ -1,5 +1,5 @@
 const Card = ({ title, description }) => (
-  <div className="full-shadow grid lg:block m-2 p-2 lg:p-4">
+  <div className="full-shadow rounded-lg grid lg:block m-2 p-2 lg:p-4">
     <span className="grid text-xl text-hitam">{title}</span>
     <span className="grid py-2 lg:py-4 text-[#667085] text-base">
       {description}

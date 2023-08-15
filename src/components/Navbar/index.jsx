@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
+// import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   //   const [IsOpen1, setIsOpen1] = useState(false);
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
   return (
     <>
       <nav
         className="fixed top-0 left-0 right-0 z-50 flex flex-wrap items-center justify-between md:px-12 lg:px-24 py-4 bg-white backdrop-blur-lg shadow-md"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
+        // data-aos="fade-down"
+        // data-aos-duration="1000"
+        // data-aos-once="true"
       >
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">

@@ -6,10 +6,7 @@ const SecondSection = () => {
           Kombinasi Terbaik
         </span>
         <span className="text-center text-lg md:text-2xl lg:text-4xl font-semibold">
-          Kami satu-satunya yang telah menggunakan
-        </span>
-        <span className="text-center text-lg md:text-2xl lg:text-4xl font-semibold">
-          herbal canggih
+          Kami satu-satunya yang telah menggunakan herbal canggih
         </span>
       </div>
     </div>
