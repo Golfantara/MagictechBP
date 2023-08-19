@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
 import articles from "./ArtikelPagesData";
+
 const ArtikelComponents = () => {
   return (
     <div className="md:container px-3 pt-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {articles.map((article, index) => (
-          <div key={index} className="full-shadow p-6 rounded-lg">
+          <Link
+            key={index}
+            to={`/artikel/${index}`}
+            className="full-shadow p-6 rounded-lg"
+          >
             <img
               src={article.image}
               alt={article.title}
@@ -26,7 +32,7 @@ const ArtikelComponents = () => {
                 <p className="ml-2 text-gray-500">{article.date}</p>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

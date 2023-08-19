@@ -6,6 +6,7 @@ import IconLoading from "@/components/Loading";
 const { Home, Produk, Bpom, Artikel, About, Faq } = lazily(() =>
   import("@/pages")
 );
+import ArtikelDetail from "../pages/ArtikelDetail";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,14 @@ const router = createBrowserRouter([
     element: (
       <Suspense fallback={<IconLoading />}>
         <Artikel />
+      </Suspense>
+    ),
+  },
+  {
+    path: "/Artikel/:id",
+    element: (
+      <Suspense fallback={<IconLoading />}>
+        <ArtikelDetail />
       </Suspense>
     ),
   },

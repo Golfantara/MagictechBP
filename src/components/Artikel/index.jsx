@@ -1,5 +1,7 @@
-import articles from "../ArtikelData";
+import { Link } from "react-router-dom";
+import articles from "../ArtikelPages/ArtikelPagesData";
 const ArtikelComponents = () => {
+  const displayArticles = articles.slice(0, 3);
   return (
     <div className="md:container px-3">
       <span className="grid text-center my-6 text-xl md:text-3xl lg:text-4xl font-semibold">
@@ -9,8 +11,12 @@ const ArtikelComponents = () => {
         Temukan manfaat kesehatan yang luar biasa dari penggunaan herbal alami
       </span>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {articles.map((article, index) => (
-          <div key={index} className="full-shadow p-6 rounded-lg">
+        {displayArticles.map((article, index) => (
+          <Link
+            key={index}
+            to={`/artikel/${index}`}
+            className="full-shadow p-6 rounded-lg"
+          >
             <img
               src={article.image}
               alt={article.title}
@@ -32,7 +38,7 @@ const ArtikelComponents = () => {
                 <p className="ml-2 text-gray-500">{article.date}</p>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
